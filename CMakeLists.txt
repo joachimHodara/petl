@@ -1,4 +1,9 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.1)
+project(Petl)
 
-project(petl)
-add_executable(${PROJECT_NAME} "main.cpp")
+# add project code
+add_subdirectory(src)
+
+# add unit tests
+enable_testing()
+add_subdirectory(test)
