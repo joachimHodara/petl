@@ -5,5 +5,5 @@ project(Petl)
 add_subdirectory(src)
 
 # add unit tests
-enable_testing()
+#enable_testing()
 add_subdirectory(test)
