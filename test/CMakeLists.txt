@@ -10,7 +10,7 @@ endif()
 
 # target definition
 add_executable(PetlTests tests_source.cpp myVec.h)
-target_link_libraries(PetlTests Petl::Petl)
+target_link_libraries(PetlTests PRIVATE Petl::Petl)
 #target_link_libraries(PetlTests PRIVATE Petl::Petl GTest::Main)
 
 #add_test(NAME Petl.UnitTests COMMAND PetlTests)
