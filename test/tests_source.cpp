@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "petl/expressions.h"
-#include "myVec.h"
+#include "MyVec.h"
 
 using namespace std;
 
