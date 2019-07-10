@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "catch2/catch.hpp"
+
 #include "petl/expressions.h"
 #include "MyVec.h"
 
